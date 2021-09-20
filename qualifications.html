@@ -12,29 +12,31 @@
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
-<body style="background-color:lightgrey;">
 
-<hr style="width:60%;">
-<center>
-	<nav>
-		<a href="index.html">Homepage</a> 
-		<a href="portfolio.html">Portfolio</a> 
-		<a>Qualifications</a>
-		<a href="service.html">Service</a> 
-		<a href="secret.html">Secret Page</a>
-	</nav>
-<hr style="width:60%;">
-</center>
+</head>
 
 <body>
+
+	<!-- for the menu -->
+	<div class="topnav">
+	  <a href="index.html">Home</a>
+	  <a href="portfolio.html">Portfolio</a>
+	  <a class="active" href="qualifications.html">Qualifications</a>
+	  <a href="service.html">Service</a>
+	  <a href="secret.html">Secret</a>
+	  <a href="https://www.linkedin.com/in/dphnguyen/">LinkedIn</a>
+
+	  <!-- toggle dark mode button-->
+	  <button onclick="myFunction()">Toggle dark mode</button>
+	</div>
+
 	<div class="overlay"></div>
 
 	<div id="slides">
 	  <div class="slides-container">
-	    <img src="images/slide1.JPG" alt="">
-	    <img src="images/slide2.JPG" alt="">
-	    <img src="images/slide3.JPG" alt="">
+	    <img src="images/slide1.jpg" alt="">
+	    <img src="images/slide2.jpg" alt="">
+	    <img src="images/slide3.jpg" alt="">
 	  </div>
 
 	  <div class="titleMessage">
@@ -61,21 +63,21 @@
 				<div class="col-md-12">
 					<h4>Resume is attached below</h4>
 
-					<a href="file:///C:/Users/dylan/OneDrive/Documents/Resume%20Updated/dylan_resume.pdf">Dylan Nguyen Resume</a>
+					<iframe src="https://docs.google.com/document/d/e/2PACX-1vQIXFO5sS9ZSZ_3goJO3bvxB5EHUHTHwEsT4w309DGOvsBzLVlpykXgxgbi2wl4I_m1nB4xwSX8FOtA/pub?embedded=true"></iframe>
 
 					<h5>Areas of Interest in Computer Science</h5>
 
-					<a>Data Science</a>
+					<a href="https://www.oracle.com/data-science/what-is-data-science/">Data Science</a>
 
 					<p>Data has stormed our world subtly. Whether the human race understands it or not, data has taken such precedence in our lives. Most of our livelihoods depend heavily on data that we input, data that is determined from our interests, and etc. I recently took a data structures and algorithms class that sparked my interest in this field. Through that class, I was able to further my mind and thought process to be more analytical in determining algorithms to manipulate data. I want to continue to further this thought process to discover patterns that could not only benefit companies, but also the livelihood of all individuals.</p>
 
-					<a>Machine Learning</a>
+					<a href="https://towardsdatascience.com/machine-learning-in-the-world-of-blockchain-and-cryptocurrency-68651ebaecd7">Machine Learning</a>
 
-					<p>A great hobby of mine has been trading cryptocurrency and attempting to predict the trends that come along with that. However, the human mind can only predict so much. Here's a spark of great news: the power of Machine Learning combined with an analytical mind can develop great strategies to determine the trends of cryptocurrency. I want to engage in Machine Learning to develop algorithms that can predict strategies for trading in the cryptocurrency market.</p>
+					<p>A great hobby of mine has been trading cryptocurrency and attempting to predict the trends that come along with that. However, the human mind can only predict so much. Here's a spark of great news: the power of Machine Learning combined with an analytical mind can develop great strategies to determine the trends of cryptocurrency. I want to engage in Machine Learning to develop algorithms that can predict strategies for trading in the cryptocurrency market and more, as it is very similar to Data Science in terms of analyzing large amounts of data and developing algorithms for the best efficiency.</p>
 
-					<a>Cybersecurity</a>
+					<a href="https://www.ibm.com/topics/cybersecurity">Cybersecurity</a>
 
-					<p>With almost all of our personal and business information being held by databases and networks, we are all prone to more data breaches. This is why I am interested in cybersecurity. Cybersecurity is the process of protecting data, systems, and networks from security attacks. It is important to keep our information secure from the unknown, and to keep everything personal within our own reach. </p>
+					<p>With almost all of our personal and business information being held by databases and networks, we are all prone to more data breaches. This is why I am interested in cybersecurity. Cybersecurity is the process of protecting data, systems, and networks from security attacks. It is important to keep our information secure from the unknown, and to keep everything personal within our own reach. Not only that, but many companies have access to and store our personal information, so it is also important to build strong cybersecurity departments to prevent hacks from occurring across the globe. There have already been large breaches within U.S. data, so that comes to show how important cybersecurity is in modern day.</p>
 				</div>
 			</div>
 
@@ -92,16 +94,75 @@
 				<div class="col-md-12 text-center">
 					<h2>TECHNICAL SKILLS</h2>
 					<p>My proficiency in each skill</p>
+					<p>Click on the pie chart and drag left or right to see all of my skills!</p>
 				</div>
 
 				<div class="owl-carousel owl-theme">
+
 				    <div class="skill">
-				    	<span class="chart" data-percent="70"></span>
-				    		<span class="percent">70</span>
+				    	<span class="chart" data-percent="95"></span>
+				    		<span class="percent">95%</span>
 				    		<canvas height="152" widht="152"></canvas>
 				    	<h4>C++</h4>
 				    	<p>Used in my Introduction to Programming in C++, Data Structures and Algorithms, and Introduction to Computer Systems classes.</p>
 				    </div>
+
+				    <div class="skill">
+				    	<span class="chart" data-percent="90"></span>
+				    		<span class="percent">90%</span>
+				    		<canvas height="152" widht="152"></canvas>
+				    	<h4>HTML</h4>
+				    	<p>Used in my Programming Studio class, and for my personal website.</p>
+				    </div>
+
+				    <div class="skill">
+				    	<span class="chart" data-percent="90"></span>
+				    		<span class="percent">90%</span>
+				    		<canvas height="152" widht="152"></canvas>
+				    	<h4>JavaScript</h4>
+				    	<p>I taught several classes during the summer of 2021, teaching the basics of JavaScript. I also used in my Programming Studio class, and for my personal website.</p>
+				    </div>
+
+				    <div class="skill">
+				    	<span class="chart" data-percent="85"></span>
+				    		<span class="percent">85%</span>
+				    		<canvas height="152" widht="152"></canvas>
+				    	<h4>CSS</h4>
+				    	<p>Used in my Programming Studio class, and for my personal website.</p>
+				    </div>
+
+				    <div class="skill">
+				    	<span class="chart" data-percent="80"></span>
+				    		<span class="percent">80%</span>
+				    		<canvas height="152" widht="152"></canvas>
+				    	<h4>Java</h4>
+				    	<p>Used in my Functional and Programming Languages class.</p>
+				    </div>
+
+				    <div class="skill">
+				    	<span class="chart" data-percent="75"></span>
+				    		<span class="percent">75%</span>
+				    		<canvas height="152" widht="152"></canvas>
+				    	<h4>Python</h4>
+				    	<p>Used in my Engineering Computation Lab, and the J.P. Morgan Software Engineering Virtual Experience.</p>
+				    </div>
+
+				    <div class="skill">
+				    	<span class="chart" data-percent="50"></span>
+				    		<span class="percent">50%</span>
+				    		<canvas height="152" widht="152"></canvas>
+				    	<h4>SQL</h4>
+				    	<p>I briefly taught a MySQL class over the summer, covering the basics of SQL and Databases.</p>
+				    </div>
+
+				    <div class="skill">
+				    	<span class="chart" data-percent="25"></span>
+				    		<span class="percent">25%</span>
+				    		<canvas height="152" widht="152"></canvas>
+				    	<h4>React.js</h4>
+				    	<p>Used in the J.P. Morgan Software Engineering Virtual Experience.</p>
+				    </div>
+
 				</div>
 				
 			</div>
