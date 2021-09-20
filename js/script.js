@@ -1,3 +1,10 @@
+// js code for toggle dark mode button
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+} 
+
+// everything else
 $(document).ready(function() {
 	// pagination for index.html
 	$('#slides').superslides({
@@ -5,6 +12,8 @@ $(document).ready(function() {
 		play: 4000,
 		pagination: false
 	});
+
+
 	// calls the 'typed' code that takes in two parameters: 
 	// selector of the element (how the code knows what to use)
 	// and the options which edits/adjusts the animations of the text
@@ -45,7 +54,7 @@ $(document).ready(function() {
 	
 
 	// ----------------------//
-	// for homepage chart
+	// for technical skills chart
 	$('.chart').easyPieChart({
         //your options goes here
         // all these options are explained on github
