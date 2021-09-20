@@ -1,10 +1,11 @@
 /* style for index.html*/
 body {
     font-size: 14px;
-    color: #333;
-    background-color: #fff;
+    color: black;
+    background-color: white;
     letter-spacing: 1px;
 }
+
 .overlay {
 	width:  100%; /*want the overlay to cover the whole page */
 	height:  100%;
@@ -72,7 +73,7 @@ body {
 	color: #fff;
 }
 
-/*8/3 create skills section*/
+/*create skills section*/
 .skill {
 	text-align: center;
 	margin-left: 10px;
@@ -94,7 +95,7 @@ body {
 }
 
 .chart .percent {
-	color: #000;
+	color: maroon;
 	line-height: 152px;
 	display: inline-block;
 	font-size: 35px;
@@ -126,5 +127,97 @@ body {
 	font-weight: 50;
 }
 
-/*=======================*/
-/*style for qualifications.html*/
+/* styling for button */
+body {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: #222222;
+  color: white;
+}
+
+.topnav button {
+	padding: 14px 16px;
+	font-size: 17px;
+	background-color: #333;
+	color: white;
+}
+
+/* top menu bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: maroon;
+  color: white;
+}
+
+/* style for embedded resume */
+.col-md-12 iframe {
+	width: 80%;
+	height: 27%;
+}
+
+/* style for landing page text */
+.col-md-7 {
+	font-size: 20px;
+}
+
+.extra {
+	font-size: 45px;
+	font-weight: 100;
+}
+
+.col-md-7 h4 {
+	font-size: 45px;
+	font-weight: 100;
+}
+
+.col-md-5 h4 {
+	font-size: 45px;
+	font-weight: 100;
+}
+
+.activityImage {
+	max-width: 100%;
+}
+
+.col-md-5 {
+	font-size: 20px;
+}
+
+.col-md-5 a {
+	font-size: 30px;
+	font-weight: 50;
+}
+
+.nobeImage {
+	max-width: 100%;
+}
+
+.col-md-7 a {
+	font-size: 30px;
+	font-weight: 50;
+}
+
+.feastImage {
+	max-width: 100%;
+}
